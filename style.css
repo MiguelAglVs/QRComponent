@@ -29,13 +29,16 @@ body{
 	padding: 20px;
 	box-shadow: 0px 5px 20px 5px var(--Grayish_blue);
 }
+
 .container{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	margin: 0 auto;
 }
+
 .card__code img{
 	border-radius: 15px;
 	width: 100%;
@@ -55,7 +58,12 @@ body{
 	color: var(--Grayish_blue);
 	margin-top: 20px;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 20px;
 }
 
 @media screen and (max-width: 700px) {
